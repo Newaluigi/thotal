@@ -1,12 +1,16 @@
+// import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-
-import "./App.css";
+// import PlumeCursor from "./components/PlumeCursor";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      {/* <PlumeCursor />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+      </Routes> */}
       <p>coucou</p>
+      <Home />
     </div>
   );
 }
